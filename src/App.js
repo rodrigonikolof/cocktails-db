@@ -12,10 +12,10 @@ function App() {
     <BrowserRouter>
       <Navbar/>
         <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/cocktail/:id' element={<SingleCocktail/>} />
-          <Route path='*' element={<Error/>} />
+          <Route path='/cocktails-db/' element={<Home/>} />
+          <Route path='/cocktails-db/about' element={<About/>} />
+          <Route path='/cocktails-db/cocktail/:id' element={<SingleCocktail/>} />
+          <Route path='cocktails-db/*' element={<Error/>} />
         </Routes>
     </BrowserRouter>
   )
